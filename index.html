@@ -1,27 +1,32 @@
 <html>
-<head></head>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
 <body>
+<h1 id="title"></h1>   
+
+<p class="paragraph">paragraph text 1</p>
+<p class="paragraph">paragraph text 2</p>
+
+<input type="text"></input>
+
+<ul>
+
+<li>list element 1</li>
+<li>list element 2</li>
+<li>list element 3</li>
+<li>list element 4</li>
+<li>list element 5</li>
+
+</ul>
+
 <script>
-    var a =6;
-function test(){
-var a = 7;
-function again(){
-var a =8;
-
-alert(a); //a
-}
-again();
-alert(a) //b
-}
-test();
-alert(a); //c
-    
-
-    
-    </script>
+$("p").css("outline","1px solid red")
+</script>
 
 </body>
-
-
 
 </html>
